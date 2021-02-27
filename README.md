@@ -12,11 +12,13 @@ docker-compose up
 Terminal 2. Generate random text, process text and publish messages.
 Go to /bet-challenge/processing-service directory and run:
 ./mvnw package
+
 java -jar target/processing-service-0.0.1.jar
 
 Terminal 3. Consume messages, store them in H2 DB
 Go to /bet-challenge/repository-service and run:
 ./mvnw package
+
 java -jar target/repository-service-0.0.1.jar
 
 
