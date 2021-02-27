@@ -7,6 +7,7 @@ Open 3 terminals
 
 Terminal 1.
 Go to bet-challenge directory and run: 
+
 docker-compose up
 
 Terminal 2. Generate random text, process text and publish messages.
